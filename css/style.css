@@ -10,6 +10,8 @@ body {
 main {
     /* padding: 15px; */
     /* margin-left: 3em; */
+    float:left;
+    width:90%;
 }
 header {
     background-color: rgba(141, 95, 81, 0.281);
@@ -95,9 +97,13 @@ section{
 }
 
 @media (max-width:1200px){
-aside {
-    width:15%
-}
+    aside {
+        width:15%
+    }
+
+    main {
+        width:85%;
+    }
 }
 @media(max-width:815px){
     aside {
